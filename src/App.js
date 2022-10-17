@@ -1,18 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          vamos testar isto
-        </p>
-       
-      </header>
-    </div>
-  );
+import React, { Component } from 'react';
+import './app.css';
+class App extends Component {
+  constructor(props) {
+    super(props);
+  }
+  state = {  }
+  render() { 
+    return <h1>hello world</h1>
+  }
 }
-
+ 
 export default App;
