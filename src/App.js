@@ -27,13 +27,15 @@ class App extends Component {
 
   onSubmitTask = (e) => {
     e.preventDefault();
-    this.setState({
-      tasks: this.state.tasks.concat(this.state.task),
-      task: {
-        text: "",
-        id: uniqid(),
-      },
-    });
+    if (this.state.task.text) {
+      this.setState({
+        tasks: this.state.tasks.concat(this.state.task),
+        task: {
+          text: "",
+          id: uniqid(),
+        },
+      });
+    }
   };
 
   render() {
