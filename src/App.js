@@ -18,6 +18,7 @@ class App extends Component {
     });
   };
 
+
   onSubmitTask = (e) => {
     e.preventDefault();
     this.setState({
@@ -31,7 +32,7 @@ class App extends Component {
     return (
       <div>
         <form onSubmit={this.onSubmitTask}>
-          <label htmlFor="taskInput">Enter task</label>
+          <label htmlFor="taskInput">Enter task: </label>
           <input
             onChange={this.handleChange}
             value={task.text}
