@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/route-app/static/css/main.cfa47f8b.css",
-    "main.js": "/route-app/static/js/main.ba93978a.js",
+    "main.js": "/route-app/static/js/main.8dfde30f.js",
     "index.html": "/route-app/index.html",
     "main.cfa47f8b.css.map": "/route-app/static/css/main.cfa47f8b.css.map",
-    "main.ba93978a.js.map": "/route-app/static/js/main.ba93978a.js.map"
+    "main.8dfde30f.js.map": "/route-app/static/js/main.8dfde30f.js.map"
   },
   "entrypoints": [
     "static/css/main.cfa47f8b.css",
-    "static/js/main.ba93978a.js"
+    "static/js/main.8dfde30f.js"
   ]
 }
