@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/route-app/static/css/main.cfa47f8b.css",
-    "main.js": "/route-app/static/js/main.bce7bcdb.js",
-    "index.html": "/route-app/index.html",
-    "main.cfa47f8b.css.map": "/route-app/static/css/main.cfa47f8b.css.map",
-    "main.bce7bcdb.js.map": "/route-app/static/js/main.bce7bcdb.js.map"
+    "main.css": "/react-list/static/css/main.cfa47f8b.css",
+    "main.js": "/react-list/static/js/main.bce7bcdb.js",
+    "index.html": "/react-list/index.html",
+    "main.cfa47f8b.css.map": "/react-list/static/css/main.cfa47f8b.css.map",
+    "main.bce7bcdb.js.map": "/react-list/static/js/main.bce7bcdb.js.map"
   },
   "entrypoints": [
     "static/css/main.cfa47f8b.css",
