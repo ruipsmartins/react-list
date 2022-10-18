@@ -44,7 +44,7 @@ class App extends Component {
     return (
       <div>
         <form onSubmit={this.onSubmitTask}>
-          <label htmlFor="taskInput">Enter task</label>
+          <label htmlFor="taskInput">Enter task: </label>
           <input
             onChange={this.handleChange}
             value={task.text}
